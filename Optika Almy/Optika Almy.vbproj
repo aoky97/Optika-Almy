@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C6532F45-00C9-4D2C-9342-5F37B86AE2E8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Optika_Almy.My.MyApplication</StartupObject>
+    <RootNamespace>Optika_Almy</RootNamespace>
+    <AssemblyName>Optika Almy</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>18</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Optika Almy.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Optika Almy.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F521DD3C71B87BE42ADE308E569820463243D74A</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Optika Almy_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ALMY OPTIKA.Designer.vb">
+      <DependentUpon>ALMY OPTIKA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ALMY OPTIKA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Doktor.Designer.vb">
+      <DependentUpon>Doktor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Doktor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Izvještaji.Designer.vb">
+      <DependentUpon>Izvještaji.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Izvještaji.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IzvještajProdaje.Designer.vb">
+      <DependentUpon>IzvještajProdaje.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IzvještajProdaje.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kupac.Designer.vb">
+      <DependentUpon>Kupac.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Kupac.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptikaAlmyDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OptikaAlmyDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Prijava.Designer.vb">
+      <DependentUpon>Prijava.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Prijava.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Optika Almy.Designer.vb">
+      <DependentUpon>Optika Almy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Optika Almy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Optika.Designer.vb">
+      <DependentUpon>Optika.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Optika.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prodaja.Designer.vb">
+      <DependentUpon>Prodaja.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Prodaja.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proizvod.Designer.vb">
+      <DependentUpon>Proizvod.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Proizvod.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Podaci - Kupac.Designer.vb">
+      <DependentUpon>Podaci - Kupac.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Podaci - Kupac.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Podaci - Doktor.Designer.vb">
+      <DependentUpon>Podaci - Doktor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Podaci - Doktor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Podaci - Proizvod.Designer.vb">
+      <DependentUpon>Podaci - Proizvod.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Podaci - Proizvod.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Račun.Designer.vb">
+      <DependentUpon>Račun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Račun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportProdaje.Designer.vb">
+      <DependentUpon>ReportProdaje.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportProdaje.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ALMY OPTIKA.resx">
+      <DependentUpon>ALMY OPTIKA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Doktor.resx">
+      <DependentUpon>Doktor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Izvještaji.resx">
+      <DependentUpon>Izvještaji.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IzvještajProdaje.resx">
+      <DependentUpon>IzvještajProdaje.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kupac.resx">
+      <DependentUpon>Kupac.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prijava.resx">
+      <DependentUpon>Prijava.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Optika Almy.resx">
+      <DependentUpon>Optika Almy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Optika.resx">
+      <DependentUpon>Optika.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prodaja.resx">
+      <DependentUpon>Prodaja.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proizvod.resx">
+      <DependentUpon>Proizvod.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Podaci - Kupac.resx">
+      <DependentUpon>Podaci - Kupac.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Podaci - Doktor.resx">
+      <DependentUpon>Podaci - Doktor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Podaci - Proizvod.resx">
+      <DependentUpon>Podaci - Proizvod.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Račun.resx">
+      <DependentUpon>Račun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
+    <EmbeddedResource Include="ReportProdaje.resx">
+      <DependentUpon>ReportProdaje.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Optika Almy_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5 SP2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="OptikaAlmy.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="OptikaAlmyDataSet.xsc">
+      <DependentUpon>OptikaAlmyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OptikaAlmyDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OptikaAlmyDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OptikaAlmyDataSet.xss">
+      <DependentUpon>OptikaAlmyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\modern-optical-lens-eyes-logo-design-vector-ophthalmologist-symbol-eyelogo-171844415.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Microsoft.ReportViewer.Common">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.DataVisualization">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.ProcessingObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.WinForms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualBasic.PowerPacks.Vs">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="System.Data.SqlServerCe">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

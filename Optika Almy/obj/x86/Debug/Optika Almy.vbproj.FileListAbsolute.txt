@@ -1,0 +1,44 @@
+C:\Users\almao\AppData\Local\Temporary Projects\Optika Almy\bin\Debug\Optika Almy.exe
+C:\Users\almao\AppData\Local\Temporary Projects\Optika Almy\bin\Debug\Optika Almy.pdb
+C:\Users\almao\AppData\Local\Temporary Projects\Optika Almy\bin\Debug\Optika Almy.xml
+C:\Users\almao\AppData\Local\Temporary Projects\Optika Almy\obj\x86\Debug\Optika_Almy.ALMY_OPTIKA.resources
+C:\Users\almao\AppData\Local\Temporary Projects\Optika Almy\obj\x86\Debug\Optika_Almy.Login_Optika_Almy.resources
+C:\Users\almao\AppData\Local\Temporary Projects\Optika Almy\obj\x86\Debug\Optika_Almy.Resources.resources
+C:\Users\almao\AppData\Local\Temporary Projects\Optika Almy\obj\x86\Debug\Optika_Almy.Optika_Almy.resources
+C:\Users\almao\AppData\Local\Temporary Projects\Optika Almy\obj\x86\Debug\Optika_Almy.Optika.resources
+C:\Users\almao\AppData\Local\Temporary Projects\Optika Almy\obj\x86\Debug\Optika Almy.vbproj.GenerateResource.Cache
+C:\Users\almao\AppData\Local\Temporary Projects\Optika Almy\obj\x86\Debug\Optika Almy.exe
+C:\Users\almao\AppData\Local\Temporary Projects\Optika Almy\obj\x86\Debug\Optika Almy.xml
+C:\Users\almao\AppData\Local\Temporary Projects\Optika Almy\obj\x86\Debug\Optika Almy.pdb
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\Optika Almy.exe
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\Optika Almy.xml
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\Optika Almy.pdb
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\bin\Debug\Optika Almy.exe
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\bin\Debug\Optika Almy.pdb
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\bin\Debug\Optika Almy.xml
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\Optika_Almy.ALMY_OPTIKA.resources
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\Optika_Almy.Resources.resources
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\Optika_Almy.Optika_Almy.resources
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\Optika_Almy.Optika.resources
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\Optika Almy.vbproj.GenerateResource.Cache
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\bin\Debug\Optika Almy.exe.config
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\Optika Almy.vbprojResolveAssemblyReference.cache
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\Optika_Almy.Kupac.resources
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\Optika_Almy.Uredi_Podatke_o_Kupcu.resources
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\Optika_Almy.Proizvod.resources
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\Optika_Almy.UrediPodatkeoProizvodu.resources
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\Optika_Almy.Doktor.resources
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\Optika_Almy.UrediPodatkeoDoktoru.resources
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\Optika_Almy.Prodaja.resources
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\Optika_Almy.Račun.resources
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\Optika_Almy.Prijava_Optika_Almy.resources
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\Optika_Almy.Izvještaji.resources
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\Optika_Almy.IzvještajProdaje.resources
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\bin\Debug\OptikaAlmy.accdb
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\bin\Debug\Optika Almy.exe.manifest
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\bin\Debug\Optika Almy.application
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\Optika Almy.exe.manifest
+C:\Users\almao\documents\visual studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\Optika Almy.application
+C:\Users\almao\Documents\Visual Studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\RdlCompile.cache
+C:\Users\almao\Documents\Visual Studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\RdlCompile.compiled
+C:\Users\almao\Documents\Visual Studio 2010\Projects\Optika Almy\Optika Almy\obj\x86\Debug\Optika_Almy.ReportProdaje.resources

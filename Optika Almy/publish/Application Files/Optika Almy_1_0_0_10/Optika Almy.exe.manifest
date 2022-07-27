@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Optika Almy.exe" version="1.0.0.10" publicKeyToken="813a21fdaa0b579c" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Optika Almy" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Optika Almy.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.Common" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.DataVisualization" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.ProcessingObjectModel" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.WinForms" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.SqlServerCe" version="3.5.1.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Optika Almy.exe" size="440320">
+      <assemblyIdentity name="Optika Almy" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>8FIXkRrDb4FJN2jnzWp0WRf99Jo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Optika Almy.exe.config" size="1859">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MASIBzRaqXrweOK/cGPDiI16woo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="OptikaAlmy.accdb" size="3805184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>6QMPB5bvdbh/l/29SiUTvdw7Irs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-GPH02H8\almao" issuerKeyHash="b6698529ae9fbbf0ae96da43259efeab2b67b854" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>84d2+JNKOgeCioSfQ2SBltf4XMs=</DigestValue></Reference></SignedInfo><SignatureValue>MVt7RdssC53uHYkBqK2XVPePJZpcItt+b7fDeKT3GlBx+yZNxPIpkrQtfeSCrZdIZjiIOphBEE5BJjRPCr50Hxo4ynrcDkwPthhE/9O6ftJKhhSw6nJY4QwCMuS9c+vVWVYIGWsFoB98dvArnXWOD65zJol91IjSIUYH1E4f4dU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vb7EcfOKscFFAKAMmYcYQWzQMz1P4lGkPWtGILTMI/yaMgqVZzAzEWoFmAGlpH7dISPyNdxwfOWLpxfq6JiLa7ZD14nJh0drKQSkr+3zVpTWUW/vHa/9jef2ElJ0XkeTVSeGpDYXo9s2GN7NpTA6/d9GLGLafruoGPhJTYQBNpk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="cb5cf8d7968164439f848a82073a4a93f87687f3" Description="" Url=""><as:assemblyIdentity name="Optika Almy.exe" version="1.0.0.10" publicKeyToken="813a21fdaa0b579c" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-GPH02H8\almao</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>BWfoo+WDstAVqbMB9Wo85nDy/JI=</DigestValue></Reference></SignedInfo><SignatureValue>Nnawi09y8tGeYQqXdxSsSTfYs2kGeY4dBxwmgqneCcH6lBw8l23LOiPSpFGfIop60wvgJ0uAOnZVJaqnXK157K3z5KqJSeBPagWV+Ny5UumbqCjTF0c1jIVyi0j5StfJiWnxYJzPwzJs9TmVnto7VocqgwLTCxGWR85m+9z0f3s=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vb7EcfOKscFFAKAMmYcYQWzQMz1P4lGkPWtGILTMI/yaMgqVZzAzEWoFmAGlpH7dISPyNdxwfOWLpxfq6JiLa7ZD14nJh0drKQSkr+3zVpTWUW/vHa/9jef2ElJ0XkeTVSeGpDYXo9s2GN7NpTA6/d9GLGLafruoGPhJTYQBNpk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQLPRTEj3HjqBH8Sdl/LnITTANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEcAUABIADAAMgBIADgAXABhAGwAbQBhAG8wHhcNMjIwNjE4MTMwNzE4WhcNMjMwNjE4MTkwNzE4WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEcAUABIADAAMgBIADgAXABhAGwAbQBhAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL2+xHHzirHBRQCgDJmHGEFs0DM9T+JRpD1rRiC0zCP8mjIKlWcwMxFqBZgBpaR+3SEj8jXccHzli6cX6uiYi2u2Q9eJyYdHaykEpK/t81aU1lFv7x2v/Y3n9hJSdF5Hk1UnhqQ2F6PbNhjezaUwOv3fRixi2n67qBj4SU2EATaZAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAtMtCbof+EJgG0fjGUu13wMUkMLs8Lk0Yt3Q0adU+Nmb4WgWpq/oaFMv7IKeQP8hbAnYr5uyr8NK4Trefk3wpTKCo4PTffuQ4MdPcHaeYB6ai6E3351glLTg0dP18edQoEqeforkB62RqkwjG8uvIjwRcb3riMOGl2yEsWoalw3c=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
